@@ -1,1 +1,229 @@
 @charset "utf-8";
+
+.body {
+  width: 100%;
+  text-align: center;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* ヘッダー部分 */
+.header {
+  background: #fff;
+  padding: 15px 0;
+}
+
+.header--nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header--nav i {
+  color: #777;
+}
+
+.header--nav a {
+  background-color: #6ba7eb;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 12px 14px;
+  text-decoration: none;
+}
+
+.header--nav a:hover {
+  color: #333;
+  transition: 0.3s;
+}
+
+/* キービジュアル部分 */
+.title-message {
+  width: 100%;
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-size: cover;
+  padding: 400px 0;
+  text-align: center;
+}
+
+.keyvisual h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #6ba7eb;
+  margin-bottom: 30px;
+}
+
+.keyvisual h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* WORK部分 */
+.work {
+  background: #e3f2fd;
+  padding-top: 50px;
+}
+
+.work-flex {
+  display: flex;
+}
+
+.flex-content1 {
+  flex: 4;
+  text-align: center;
+}
+
+.work-img {
+  width: 250px;
+}
+
+.flex-content2 {
+  display: block;
+  flex: 6;
+  text-align: center;
+}
+
+.flex-content2 h3 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  padding: 20px;
+}
+
+.flex-content2  p {
+  font-size: 15px;
+  line-height: 18px;
+  word-break: break-all;
+  margin-top: 15px;
+}
+
+/* SKILL部分 */
+.skills {
+  width: 1100px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.skills_title {
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.flex1 {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.flex2 {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.skills_img {
+  width: 300px;
+  height: 300px;
+  margin-right: 100px;
+  opacity: 0.7;
+}
+
+.skills_img:nth-child(3) {
+  margin-right: 0;
+}
+
+.skills_img:hover {
+  opacity: 1.0;
+}
+
+/* PLAN部分 */
+.plan {
+  background: #d0dfea;
+  padding: 50px;
+}
+
+.plan h5 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.plan_table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.plan_table th {
+  background-color: #6ba7eb;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.plan_table th,.plan_table td {
+  border-right: solid 1px #ffffff;
+  padding: 10px;
+}
+
+.plan_table th:last-child, .plan_table td:last-child {
+  border-right: none;
+}
+
+.plan_table td {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.plan_table tr{
+  background-color: #f9f9f9;
+}
+
+.plan_table tr:nth-child(odd) {
+  background-color: #e0efff;
+}
+
+.plan_table td:first-child {
+  font-weight: 700;
+}
+
+/* SNS部分 */
+.sns {
+  background: #e3f2fd;
+  padding: 200px 0;
+}
+
+.nav-sns {
+  text-align: center;
+}
+
+.sns-icon {
+  display: inline-block;
+  width: 185px;
+  padding: 25px 0;
+  color: #8c8c8c;
+  font-size: 40px;
+  overflow: hidden;
+}
+
+.sns-icon:hover {
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+/* FOOTER部分 */
+.footer {
+  background: #cfd8dc;
+  padding: 20px 0 25px 0;
+}
+
+.copyright {
+  text-align: right;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
